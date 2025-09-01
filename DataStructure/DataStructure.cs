@@ -1,4 +1,4 @@
-namespace CSharpLearning;
+namespace CSharpLearning.DataStructure;
 
 public abstract class DataStructure
 {
