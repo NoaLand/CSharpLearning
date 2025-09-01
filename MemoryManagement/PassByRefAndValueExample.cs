@@ -13,6 +13,12 @@ public class PassByRefAndValueExample
         p.X = 10;
         p.Y = 20;
     }
+    
+    private void PassByRef(ref Point p)
+    {
+        p.X = 10;
+        p.Y = 20;
+    }
 
     public void RunWithPassByValue()
     {
@@ -23,5 +29,16 @@ public class PassByRefAndValueExample
             PassByValue(p);
             Console.WriteLine($"after, X: {p.X}, Y: {p.Y}");
         });
+    }
+
+    public void RunWithPassByRef()
+    {
+        ExampleRunner.RunExample("Pass by Ref", () =>
+        {
+            var p = new Point { X = 1, Y = 2 };
+            Console.WriteLine($"before, X: {p.X}, Y: {p.Y}");
+            PassByRef(ref p);
+            Console.WriteLine($"after, X: {p.X}, Y: {p.Y}");
+        });   
     }
 }

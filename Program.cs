@@ -11,3 +11,4 @@ QueueExample.RunGenericExample();
 
 PassByRefAndValueExample passByRefAndValueExample = new PassByRefAndValueExample();
 passByRefAndValueExample.RunWithPassByValue();
+passByRefAndValueExample.RunWithPassByRef();
