@@ -25,16 +25,15 @@ public abstract class DataStructure
     {
         public static void Example()
         {
-            Console.WriteLine("Array");
-            // C++: std::array<int, 3> a {1, 2, 3};
-            var a = new int[3] { 1, 2, 3 };
-            foreach (var element in a)
+            Util.RunExample("Array", () =>
             {
-                Console.WriteLine(element);
-            }
-
-            Console.WriteLine("---------------");
-            Console.WriteLine();
+                // C++: std::array<int, 3> a {1, 2, 3};
+                var a = new int[3] { 1, 2, 3 };
+                foreach (var element in a)
+                {
+                    Console.WriteLine(element);
+                }
+            });
         }
     }
 
@@ -42,35 +41,38 @@ public abstract class DataStructure
     {
         public static void NonGenericExample()
         {
-            Console.WriteLine("Non Generic Queue");
-            // C++: std::queue<int> q {1, 2, 3};
-            System.Collections.Queue nonGenericQueue = new System.Collections.Queue();
-            nonGenericQueue.Enqueue(1);
-            nonGenericQueue.Enqueue("xxxx");
-            nonGenericQueue.Enqueue(3.14);
-
-            foreach (var element in nonGenericQueue)
+            Util.RunExample("Non Generic Queue", () =>
             {
-                Console.WriteLine(element);
-            }
-            
-            Console.WriteLine();
+                // C++: std::queue<int> q;
+                // q.push(1);
+                // q.push(2);
+                // q.push(3);
+                System.Collections.Queue nonGenericQueue = new System.Collections.Queue();
+                nonGenericQueue.Enqueue(1);
+                nonGenericQueue.Enqueue("xxxx");
+                nonGenericQueue.Enqueue(3.14);
+
+                foreach (var element in nonGenericQueue)
+                {
+                    Console.WriteLine(element);
+                }
+            });
         }
 
         public static void GenericExample()
         {
-            Console.WriteLine("Generic Queue");
-            Queue<int> genericQueue = new Queue<int>();
-            genericQueue.Enqueue(1);
-            genericQueue.Enqueue(2);
-            genericQueue.Enqueue(3);
-
-            foreach (var element in genericQueue)
+            Util.RunExample("Generic Queue", () =>
             {
-                Console.WriteLine(element);
-            }
+                Queue<int> genericQueue = new Queue<int>();
+                genericQueue.Enqueue(1);
+                genericQueue.Enqueue(2);
+                genericQueue.Enqueue(3);
 
-            Console.WriteLine("---------------");
+                foreach (var element in genericQueue)
+                {
+                    Console.WriteLine(element);
+                }
+            });
         }
     }
 }
