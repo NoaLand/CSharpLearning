@@ -1,6 +1,6 @@
 namespace CSharpLearning.DataStructure;
 
-public class ListExample
+public abstract class ListExample
 {
     public static void Example()
     {
