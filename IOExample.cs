@@ -1,6 +1,6 @@
 namespace CSharpLearning;
 
-public static class IO
+public static class IOExample
 {
     public static void Example()
     {

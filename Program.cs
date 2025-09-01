@@ -1,7 +1,7 @@
 ﻿using CSharpLearning;
 using CSharpLearning.DataStructure;
 
-IO.Example();
+IOExample.Example();
 
 ListExample.Example();
 ArrayExample.Example();
