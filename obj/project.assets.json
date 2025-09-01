@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/edwardnoaland/Desktop/Language/csharp/csharp_learning/csharp_learning.csproj",
-      "projectName": "csharp_learning",
-      "projectPath": "/Users/edwardnoaland/Desktop/Language/csharp/csharp_learning/csharp_learning.csproj",
+      "projectUniqueName": "/Users/edwardnoaland/Desktop/Language/csharp/CSharpLearning/CSharpLearning.csproj",
+      "projectName": "CSharpLearning",
+      "projectPath": "/Users/edwardnoaland/Desktop/Language/csharp/CSharpLearning/CSharpLearning.csproj",
       "packagesPath": "/Users/edwardnoaland/.nuget/packages/",
-      "outputPath": "/Users/edwardnoaland/Desktop/Language/csharp/csharp_learning/obj/",
+      "outputPath": "/Users/edwardnoaland/Desktop/Language/csharp/CSharpLearning/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/edwardnoaland/.nuget/NuGet/NuGet.Config"

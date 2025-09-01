@@ -1,2 +1,7 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using CSharpLearning;
+
+IO.Example();
+
+DataStructure.List.Example();
+DataStructure.Array.Example();
+DataStructure.Queue.Example();
