@@ -28,7 +28,7 @@ public abstract class DataStructure
             Util.RunExample("Array", () =>
             {
                 // C++: std::array<int, 3> a {1, 2, 3};
-                var a = new int[3] { 1, 2, 3 };
+                var a = new[] { 1, 2, 3 };
                 foreach (var element in a)
                 {
                     Console.WriteLine(element);
@@ -47,7 +47,7 @@ public abstract class DataStructure
                 // q.push(1);
                 // q.push(2);
                 // q.push(3);
-                System.Collections.Queue nonGenericQueue = new System.Collections.Queue();
+                var nonGenericQueue = new System.Collections.Queue();
                 nonGenericQueue.Enqueue(1);
                 nonGenericQueue.Enqueue("xxxx");
                 nonGenericQueue.Enqueue(3.14);
@@ -63,7 +63,7 @@ public abstract class DataStructure
         {
             Util.RunExample("Generic Queue", () =>
             {
-                Queue<int> genericQueue = new Queue<int>();
+                var genericQueue = new Queue<int>();
                 genericQueue.Enqueue(1);
                 genericQueue.Enqueue(2);
                 genericQueue.Enqueue(3);
