@@ -10,7 +10,7 @@ public static class IOExample
             // C++: std::cout << "Hello, World!" << std::endl;
             Console.WriteLine("Hello, World!(from WriteLine)");
 
-            // C++: std:: cout << "Hello, World!";
+            // C++: std::cout << "Hello, World!";
             Console.Write("Hello, World!(from Write)");
 
             Console.WriteLine();
