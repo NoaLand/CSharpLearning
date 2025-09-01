@@ -4,6 +4,6 @@ using CSharpLearning.DataStructure;
 IO.Example();
 
 ListExample.Example();
-DataStructure.Array.Example();
+ArrayExample.Example();
 DataStructure.Queue.NonGenericExample();
 DataStructure.Queue.GenericExample();
