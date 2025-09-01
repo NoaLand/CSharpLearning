@@ -2,11 +2,6 @@ namespace CSharpLearning;
 
 public abstract class DataStructure
 {
-    DataStructure()
-    {
-        Console.WriteLine("Basic Data Structures");
-    }
-
     public abstract class List
     {
         public static void Example()
@@ -22,6 +17,7 @@ public abstract class DataStructure
                 Console.WriteLine(element);
             }
 
+            Console.WriteLine("---------------");
             Console.WriteLine();
         }
     }
@@ -38,6 +34,7 @@ public abstract class DataStructure
                 Console.WriteLine(element);
             }
 
+            Console.WriteLine("---------------");
             Console.WriteLine();
         }
     }
