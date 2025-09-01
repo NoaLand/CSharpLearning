@@ -3,7 +3,7 @@ using CSharpLearning.DataStructure;
 
 IO.Example();
 
-DataStructure.List.Example();
+ListExample.Example();
 DataStructure.Array.Example();
 DataStructure.Queue.NonGenericExample();
 DataStructure.Queue.GenericExample();
