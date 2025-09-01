@@ -6,10 +6,7 @@ public static class QueueExample
     {
         ExampleRunner.RunExample("Non Generic Queue", () =>
         {
-            // C++: std::queue<int> q;
-            // q.push(1);
-            // q.push(2);
-            // q.push(3);
+            // C++ does not support non-generic queue, but can use tuple, or customized template or class to simulate it, but this operation is not safe.
             var nonGenericQueue = new System.Collections.Queue();
             nonGenericQueue.Enqueue(1);
             nonGenericQueue.Enqueue("xxxx");
@@ -26,6 +23,10 @@ public static class QueueExample
     {
         ExampleRunner.RunExample("Generic Queue", () =>
         {
+            // C++: std::queue<int> q;
+            // q.push(1);
+            // q.push(2);
+            // q.push(3);
             var genericQueue = new Queue<int>();
             genericQueue.Enqueue(1);
             genericQueue.Enqueue(2);
