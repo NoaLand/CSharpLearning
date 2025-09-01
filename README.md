@@ -9,15 +9,15 @@ Because I'm a C++ developer, so I will learn this language by comparing the diff
 I will implement several examples in this project, including:
 
 - Basic IO
-  - Write and C++ std::cout
-  - WriteLine and C++ std::cout + std::endl
+  - `Console.Write` and C++ `std::cout`
+  - `Console.WriteLine` and C++ `std::cout + std::endl`
 - Data Structure
-  - List and C++ std::vector
-  - Array and C++ std::array
-  - Queue and C++ std::queue
+  - `List<int>` and C++ `std::vector<int>`
+  - `Array([])` and C++ `std::array<int, 3>`
+  - `Queue\Queue<int>` and C++ `std::queue<int>`
 - Memory Management
-  - Pass by Ref and C++ (const Point& p) or (Point& p)
-  - Pass by Value and C++ (Point p)
+  - Pass by Ref and C++ `(const Point& p) or (Point& p)`
+  - Pass by Value and C++ `(Point p)`
   - Pointer
 - Class, Struct, Interface, Record and Enum
 - Generic and C++ Template
