@@ -1,5 +1,3 @@
-using System.Collections.Generic;
-
 namespace CSharpLearning;
 
 public abstract class DataStructure
@@ -21,6 +19,7 @@ public abstract class DataStructure
 
             Console.WriteLine("---------------");
             Console.WriteLine();
+            
         }
     }
 
