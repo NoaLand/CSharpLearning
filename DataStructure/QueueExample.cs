@@ -4,7 +4,7 @@ public static class QueueExample
 {
     public static void RunNonGenericExample()
     {
-        Util.RunExample("Non Generic Queue", () =>
+        ExampleRunner.RunExample("Non Generic Queue", () =>
         {
             // C++: std::queue<int> q;
             // q.push(1);
@@ -24,7 +24,7 @@ public static class QueueExample
 
     public static void RunGenericExample()
     {
-        Util.RunExample("Generic Queue", () =>
+        ExampleRunner.RunExample("Generic Queue", () =>
         {
             var genericQueue = new Queue<int>();
             genericQueue.Enqueue(1);

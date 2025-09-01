@@ -4,7 +4,7 @@ public static class IOExample
 {
     public static void Run()
     {
-        Util.RunExample("Basic IO", () =>
+        ExampleRunner.RunExample("Basic IO", () =>
         {
             // Basic IO in C# and C++
             // C++: std::cout << "Hello, World!" << std::endl;

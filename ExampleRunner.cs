@@ -1,6 +1,6 @@
 namespace CSharpLearning;
 
-public abstract class Util
+public static class ExampleRunner
 {
     public static void RunExample(string title, Action example)
     {

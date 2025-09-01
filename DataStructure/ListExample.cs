@@ -4,7 +4,7 @@ public static class ListExample
 {
     public static void Run()
     {
-        Util.RunExample("Vector/List", () =>
+        ExampleRunner.RunExample("Vector/List", () =>
         {
             // C++: std::vector<int> v {1, 2, 3};
             var v = new List<int> { 1, 2, 3 };
