@@ -1,6 +1,6 @@
 namespace CSharpLearning.DataStructure;
 
-public abstract class ArrayExample
+public static class ArrayExample
 {
     public static void Run()
     {

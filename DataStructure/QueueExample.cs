@@ -1,6 +1,6 @@
 namespace CSharpLearning.DataStructure;
 
-public abstract class QueueExample
+public static class QueueExample
 {
     public static void RunNonGenericExample()
     {
