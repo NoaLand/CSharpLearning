@@ -1,9 +1,9 @@
 ﻿using CSharpLearning;
 using CSharpLearning.DataStructure;
 
-IOExample.Example();
+IOExample.Run();
 
-ListExample.Example();
-ArrayExample.Example();
-QueueExample.NonGenericExample();
-QueueExample.GenericExample();
+ListExample.Run();
+ArrayExample.Run();
+QueueExample.RunNonGenericExample();
+QueueExample.RunGenericExample();

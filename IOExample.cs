@@ -2,7 +2,7 @@ namespace CSharpLearning;
 
 public static class IOExample
 {
-    public static void Example()
+    public static void Run()
     {
         Util.RunExample("Basic IO", () =>
         {

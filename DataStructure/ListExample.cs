@@ -2,7 +2,7 @@ namespace CSharpLearning.DataStructure;
 
 public abstract class ListExample
 {
-    public static void Example()
+    public static void Run()
     {
         Util.RunExample("Vector/List", () =>
         {

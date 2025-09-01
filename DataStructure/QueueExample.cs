@@ -2,7 +2,7 @@ namespace CSharpLearning.DataStructure;
 
 public abstract class QueueExample
 {
-    public static void NonGenericExample()
+    public static void RunNonGenericExample()
     {
         Util.RunExample("Non Generic Queue", () =>
         {
@@ -22,7 +22,7 @@ public abstract class QueueExample
         });
     }
 
-    public static void GenericExample()
+    public static void RunGenericExample()
     {
         Util.RunExample("Generic Queue", () =>
         {
