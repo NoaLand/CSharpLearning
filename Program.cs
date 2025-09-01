@@ -4,4 +4,5 @@ IO.Example();
 
 DataStructure.List.Example();
 DataStructure.Array.Example();
-DataStructure.Queue.Example();
+DataStructure.Queue.NonGenericExample();
+DataStructure.Queue.GenericExample();

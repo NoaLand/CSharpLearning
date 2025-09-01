@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+
 namespace CSharpLearning;
 
 public abstract class DataStructure
@@ -41,10 +43,36 @@ public abstract class DataStructure
 
     public abstract class Queue
     {
-        public static void Example()
+        public static void NonGenericExample()
         {
-            Console.WriteLine("Queue");
+            Console.WriteLine("Non Generic Queue");
             // C++: std::queue<int> q {1, 2, 3};
+            System.Collections.Queue nonGenericQueue = new System.Collections.Queue();
+            nonGenericQueue.Enqueue(1);
+            nonGenericQueue.Enqueue("xxxx");
+            nonGenericQueue.Enqueue(3.14);
+
+            foreach (var element in nonGenericQueue)
+            {
+                Console.WriteLine(element);
+            }
+            
+            Console.WriteLine();
+        }
+
+        public static void GenericExample()
+        {
+            Console.WriteLine("Generic Queue");
+            Queue<int> genericQueue = new Queue<int>();
+            genericQueue.Enqueue(1);
+            genericQueue.Enqueue(2);
+            genericQueue.Enqueue(3);
+
+            foreach (var element in genericQueue)
+            {
+                Console.WriteLine(element);
+            }
+
             Console.WriteLine("---------------");
         }
     }
